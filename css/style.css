@@ -3717,6 +3717,7 @@ h6 {
 
 .h_gallery_item {
   display: inline-block;
+  height: 100%;
   margin-bottom: 45px;
 }
 
@@ -3725,6 +3726,7 @@ h6 {
   text-align: center;
   overflow: hidden;
   border-radius: 5px;
+  height: 14rem;
 }
 
 .h_gallery_item .g_img_item:before {
@@ -3749,6 +3751,8 @@ h6 {
   width: 100%;
   text-align: center;
   opacity: 0;
+  transition: opacity 300ms ease;
+  font-size: 3rem;
 }
 
 .h_gallery_item .g_item_text {
@@ -3764,6 +3768,7 @@ h6 {
 
 .h_gallery_item .g_item_text p {
   margin-bottom: 0px;
+
 }
 
 .h_gallery_item:hover .g_img_item:before {
@@ -3782,6 +3787,7 @@ h6 {
   text-align: center;
   margin-top: 80px;
 }
+
 
 /* End Gallery Area css
 ============================================================================================ */
