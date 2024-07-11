@@ -3718,7 +3718,9 @@ h6 {
 .h_gallery_item {
   display: inline-block;
   height: 100%;
+  background: rgb(244, 244, 254);
   margin-bottom: 45px;
+
 }
 
 .h_gallery_item .g_img_item {
@@ -3757,6 +3759,7 @@ h6 {
 
 .h_gallery_item .g_item_text {
   text-align: center;
+  height: 15rem;
 }
 
 .h_gallery_item .g_item_text h4 {
